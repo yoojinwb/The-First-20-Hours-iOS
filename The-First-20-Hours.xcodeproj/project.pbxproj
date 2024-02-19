@@ -56,15 +56,39 @@
 		44969AD62B82A9A200128434 /* The-First-20-Hours */ = {
 			isa = PBXGroup;
 			children = (
+				44969AF22B83F5EB00128434 /* Model */,
+				44969AF32B83F5F300128434 /* View */,
+				44969AF42B83F60A00128434 /* Controller */,
 				44969AD72B82A9A200128434 /* AppDelegate.swift */,
 				44969AD92B82A9A200128434 /* SceneDelegate.swift */,
-				44969ADB2B82A9A200128434 /* ViewController.swift */,
-				44969ADD2B82A9A200128434 /* Main.storyboard */,
 				44969AE02B82A9A300128434 /* Assets.xcassets */,
 				44969AE22B82A9A300128434 /* LaunchScreen.storyboard */,
 				44969AE52B82A9A300128434 /* Info.plist */,
 			);
 			path = "The-First-20-Hours";
+			sourceTree = "<group>";
+		};
+		44969AF22B83F5EB00128434 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44969AF32B83F5F300128434 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				44969ADD2B82A9A200128434 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		44969AF42B83F60A00128434 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				44969ADB2B82A9A200128434 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

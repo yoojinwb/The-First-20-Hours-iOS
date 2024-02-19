@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        view.backgroundColor = UIColor(red: 0.93, green: 0.96, blue: 1.00, alpha: 1.00)
+        
         let newGoalView = UIView(frame: CGRect(x: 49, y: 96, width: 294, height: 131))
         
         // Change newGoalView background color
